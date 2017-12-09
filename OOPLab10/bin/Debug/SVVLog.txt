@@ -1,0 +1,27 @@
+Create C: \Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\Debug\SVVInspect  09.12.2017 19:09:02
+Create SVVInspect\SVVdirinfo.txt  09.12.2017 19:09:02
+Copy in SVVInspect\SVVdirinfoCopy.txt  09.12.2017 19:09:03
+Create C: \Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\Debug\SVVInspect  09.12.2017 19:12:47
+Create SVVInspect\SVVdirinfo.txt  09.12.2017 19:12:47
+Show E:\  09.12.2017 19:12:47
+Copy_in SVVInspect\SVVdirinfoCopy.txt  09.12.2017 19:12:47
+Create  C:\Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\DebugSVVFiles  09.12.2017 19:12:47
+Copy_in SVVFiles\in.txt  09.12.2017 19:12:47
+Create C: \Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\Debug\SVVInspect  09.12.2017 19:15:57
+Create SVVInspect\SVVdirinfo.txt  09.12.2017 19:15:57
+Show E:\  09.12.2017 19:15:57
+Copy_in SVVInspect\SVVdirinfoCopy.txt  09.12.2017 19:15:58
+Create  C:\Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\DebugSVVFiles  09.12.2017 19:15:58
+Copy_in SVVFiles\in.txt  09.12.2017 19:15:58
+Create C: \Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\Debug\SVVInspect  09.12.2017 19:16:21
+Create SVVInspect\SVVdirinfo.txt  09.12.2017 19:16:21
+Show E:\  09.12.2017 19:16:21
+Copy_in SVVInspect\SVVdirinfoCopy.txt  09.12.2017 19:16:21
+Create  C:\Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\DebugSVVFiles  09.12.2017 19:16:21
+Copy_in SVVFiles\in.txt  09.12.2017 19:16:21
+Create C: \Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\Debug\SVVInspect  09.12.2017 19:16:33
+Create SVVInspect\SVVdirinfo.txt  09.12.2017 19:16:33
+Show E:\  09.12.2017 19:16:33
+Copy_in SVVInspect\SVVdirinfoCopy.txt  09.12.2017 19:16:34
+Create  C:\Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\DebugSVVFiles  09.12.2017 19:16:34
+Copy_in SVVFiles\in.txt  09.12.2017 19:16:34
