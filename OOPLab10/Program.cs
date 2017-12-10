@@ -54,7 +54,13 @@ namespace OOPLab10
             finally
             {
                 SVVLog.Close();
-                SVVLog.ShowLog();
+                SVVLog.ShowLogDay();
+                Console.WriteLine("-----------------");
+                SVVLog.ShowLogKey();
+                Console.WriteLine("-----------------");
+                SVVLog.ShowLogTime();
+                Console.WriteLine("-----------------");
+                SVVLog.DeleteLog();
             }
 
 
@@ -302,19 +308,85 @@ namespace OOPLab10
 
             public static void WriteLog(string st)
             {
-                FileLog.WriteLine(st+"  " +DateTime.Now.ToString());
+                FileLog.WriteLine(DateTime.Now.ToString()+"   "+st);
             }
-            public static void ShowLog()
+            public static void ShowLogDay()
             {
+                int day = 15;
                 using (StreamReader sr = new StreamReader("SVVLog.txt"))
                 {
-                    Console.WriteLine(sr.ReadToEnd());
+
+                    while (!sr.EndOfStream) {
+                        string str = sr.ReadLine();
+                        string[] Mas = str.Split('.');
+                        int t = Int32.Parse(Mas[0]);
+                        if(t==day)Console.WriteLine(t);
+                    }
+
+                }
+            }
+            public static void ShowLogKey()
+            {
+                using (StreamReader st = new StreamReader("SVVLog.txt"))
+                {
+                    while (!st.EndOfStream)
+                    {
+                        string str = st.ReadLine();
+                        int ind = str.IndexOf("Create", StringComparison.CurrentCulture);
+                        if (ind > 0) Console.WriteLine(str);
+                    }
+                }
+            }
+            public static void ShowLogTime()
+            {
+                int t1= Int32.Parse("10") * 3600 + Int32.Parse("20") * 60 + Int32.Parse("00");
+                int t2 = Int32.Parse("10") * 3600 + Int32.Parse("30") * 60 + Int32.Parse("00");
+
+                using (StreamReader st = new StreamReader("SVVLog.txt"))
+                {
+                    while (!st.EndOfStream)
+                    {
+                        string str = st.ReadLine();
+                        string[] Mas = str.Split(' ',':');
+                        int t = Int32.Parse(Mas[1]) * 3600 + Int32.Parse(Mas[2]) * 60 + Int32.Parse(Mas[3]);
+                        if (t >= t1 && t <= t2) Console.WriteLine(str);
+                    }
                 }
             }
 
+            public static void DeleteLog()
+            {
+                DateTime time = DateTime.Now;
+                FileInfo file = new FileInfo("SVVLog2.txt");
+                FileInfo LOG = new FileInfo("SVVLog.txt");
+
+
+                if (file.Exists) file.Delete();
+                file.Create().Close();
+                StreamWriter fw= new StreamWriter("SVVLog2.txt", true, System.Text.Encoding.Default);
+
+                using (StreamReader st = new StreamReader("SVVLog.txt"))
+                {
+                    while (!st.EndOfStream)
+                    {
+                        string str = st.ReadLine();
+                        string[] Mas = str.Split(' ', ':');
+                        int t = Int32.Parse(Mas[1]);
+                        if ((t - time.Hour) == 0)
+                        {
+                            fw.WriteLine(str);
+                        }
+                    }
+                    fw.Close();
+                    st.Close();
+                    LOG.Delete();
+                    file.CopyTo("SVVLog.txt");
+                    file.Delete();
+                }
+            }
         }
        
 
-        ///////////////////////
+        ///////////////////////+
     }
 }
