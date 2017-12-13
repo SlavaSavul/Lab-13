@@ -1,8 +1,0 @@
-10.12.2017 11:58:42   Create  C:\Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\DebugSVVFiles
-10.12.2017 11:58:42   Copy_in SVVFiles\in.txt
-10.12.2017 11:00:08   Create C: \Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\Debug\SVVInspect
-10.12.2017 11:00:08   Create SVVInspect\SVVdirinfo.txt
-10.12.2017 11:00:08   Show E:\
-10.12.2017 11:00:08   Copy_in SVVInspect\SVVdirinfoCopy.txt
-10.12.2017 11:00:08   Create  C:\Users\User\Desktop\Lab OOP\Lab13\OOPLab10\bin\DebugSVVFiles
-10.12.2017 11:00:08   Copy_in SVVFiles\in.txt

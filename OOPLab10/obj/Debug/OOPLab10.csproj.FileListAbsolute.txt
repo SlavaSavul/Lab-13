@@ -31,3 +31,10 @@ C:\Users\User\Desktop\Lab OOP\Lab13\OOPLab10\obj\Debug\OOPLab10.csprojResolveAss
 C:\Users\User\Desktop\Lab OOP\Lab13\OOPLab10\obj\Debug\OOPLab10.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Lab OOP\Lab13\OOPLab10\obj\Debug\OOPLab10.exe
 C:\Users\User\Desktop\Lab OOP\Lab13\OOPLab10\obj\Debug\OOPLab10.pdb
+C:\Users\User\Desktop\Lab OOP\Lab15\OOPLab10\obj\Debug\OOPLab10.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Lab OOP\Lab15\OOPLab10\obj\Debug\OOPLab10.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Lab OOP\Lab15\OOPLab10\obj\Debug\OOPLab10.exe
+C:\Users\User\Desktop\Lab OOP\Lab15\OOPLab10\obj\Debug\OOPLab10.pdb
+C:\Users\User\Desktop\Lab OOP\Lab15\OOPLab10\bin\Debug\OOPLab10.exe.config
+C:\Users\User\Desktop\Lab OOP\Lab15\OOPLab10\bin\Debug\OOPLab10.exe
+C:\Users\User\Desktop\Lab OOP\Lab15\OOPLab10\bin\Debug\OOPLab10.pdb
